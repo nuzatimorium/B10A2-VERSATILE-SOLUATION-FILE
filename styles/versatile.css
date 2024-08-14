@@ -1,8 +1,158 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-.title{
+.dancing-script-font {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+}
+
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+  }
+/*shared styles*/
+  
+.display-flex{
+  display: flex;
+}
+.text-white{
+color: rgba(255, 255, 255, 1);
+
+}
+.btn-1{
+  color: white;
+  background-color:rgba(230, 83, 60, 1) ;
+  padding:20px;
+  border-radius:30px;
+}
+.btn-2{
+  color: white;
+  background-color: black;
+  padding:20px;
+  border-radius: 30px;
+}
+.bg-clr{
+  background-color: rgba(17, 17, 17, 1);
+}
+/*header styles*/
+  .brand{
     color: rgba(230, 83, 60, 1);
-    font-style: italic;
-    font-size: 36px;
+    font-size: 2.5rem;
+  }
+  
+/*navbar related styles*/
+.navbar{
+justify-content: space-between;
+align-items: center;
+
+}
+.nav-item{
+  list-style: none;
+  margin-right: 47px;
+}
+.nav-link{
+  text-decoration: none;
+
+}
+.navbar,.banner{
+  max-width:1440px ;
+  margin: 0 auto;
+}
+.banner{
+  color: white;
+  
+} 
+ 
+
+.banner-title{
+  font-size:4.8rem ;
+ 
+}
+.banner-description{
+  color: rgba(255, 255, 255, 0.5);
+  font-size:1rem ;
+}
+/*banner related styles*/
+.banner-content{
+  width: 1441px;
+  height: 715px;
+ 
+  
+}
+
+.banner-img{
+  width: 349px;
+  height:580px ;
+  margin-left: 60%;
+  margin-top:-18% ;
+}
+.fast-badge{
+  background-color: rgba(247, 238, 238, 0.1);
+  font-size: 1.5rem;
+  color: white;
+  padding:20px;
+  border-radius: 11px;
+  
+  
+  
+}
+.second-badge{
+  background-color: rgba(243, 237, 237, 0.1);
+  font-size: 2rem;
+  color: white;
+  padding:20px;
+  border-radius: 11px;
+  
+}
+.badge-2{
+  font-size: 1rem;
+}
+.badge{
+  display: flex;
+  gap: 100px;
+  margin-left:1000px ;
+ 
+}
+/*section one related styles*/
+.title-bar-one{
+  text-align: center;
+}
+.title-bar{
+  font-size:3rem ;
+}
+.img-des{
+  color: rgba(255, 255, 255, 0.5);
+  size: 1rem;
+}
+.img-dec{
+ color: rgba(255, 255, 255, 1);
+  size: 1.2rem;
+  
+}
+.img-container{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap:10px;
+
+}
+.content{
+  text-align: center;
+}
+
+.img-redius{
+  border-radius: 50%;
+}
+
+
+/*responsive media query*/
+@media  screen and (max-width:576px) {
+  
+    
+  
 }
