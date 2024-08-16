@@ -211,9 +211,7 @@ gap:10px;
  text-align:end ;
 
 }
-.bmi-chart-head{
-  text-align: center;
-}
+
 
 
   
@@ -249,9 +247,43 @@ grid-template-columns: repeat(3,2fr);
 
 
 
-/*rrgba(34, 34, 34, 1)esponsive media query*/
-@media  screen and (max-width:576px) {
+/*esponsive media query*/
+@media  screen and (max-width:576px){
+  .navbar,
   
-    
+  .brand, 
+  
+  .nav-links, 
+  
+  .nav-item,
+  
+  .nav-link,
+  
+  .btn-1,
+  
+  .banner,
+  
+  .banner-content,
+  
+  .banner-title,
+  
+  .banner-description,
+  
+  .btn-1,
+  
+  .btn-2,
+  
+  .banner-img,
+  .fast-badge,
+  .badge-2,
+  .second-badge,
+  .badge-2,
+  .content,
+  .title-bar-one{
+  flex-direction: column;
+  }
+    section div .img-container{
+      flex-direction: column;
+    }
   
 }
