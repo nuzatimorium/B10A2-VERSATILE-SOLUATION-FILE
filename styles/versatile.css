@@ -8,7 +8,9 @@
   font-weight: 400px;
   font-style: normal;
 }
-
+body{
+  background-color: black;
+}
 
 .inter-font {
     font-family: "Inter", sans-serif;
@@ -125,10 +127,12 @@ align-items: center;
 }
 .title-bar{
   font-size:3rem ;
+  color: white;
 }
 .img-des{
   color: rgba(255, 255, 255, 0.5);
   size: 1rem;
+ 
 }
 .img-dec{
  color: rgba(255, 255, 255, 1);
@@ -148,9 +152,104 @@ gap:10px;
 .img-redius{
   border-radius: 50%;
 }
+.img-redius-two{
+  border-radius: 5px;
+  width: 366px;
+  height: 312px;
+  margin-top: -215px;
+}
+.third-banner{
+  background-color:rgba(34, 34, 34, 1);
+  padding: 20px;
+}
+.runimg{
+  
+  text-align: right;
+}
+/*bmi related styles*/
+.title-bar{
+  text-align: center;
+
+}
+.img-des{
+  text-align: center;
+}
+
+.th-text{
+  color: white;
+  
+}
+.tr-text{
+  color: white;
+  
+}
+.table-caption{
+  color: white;
+  font-size:1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+.table-des{
+  text-align: center;
+}
+.input-container{
+  text-align: center;
+}
+.bmi-chart-parents{
+  height:287px;
+  width:2140px;
+  background-color:rgba(121, 120, 120, 0.5);
+  display: flex;
+  gap:600px;
+  
+}
+.bmi-cal-chart{
+  text-align: left;
+}
+.bmi-cal-chart-two{
+ text-align:end ;
+
+}
+.bmi-chart-head{
+  text-align: center;
+}
 
 
-/*responsive media query*/
+  
+
+
+ 
+
+
+/*footer tag related styles*/
+
+.img-box{
+  display: grid;
+grid-template-columns: repeat(3,2fr);
+
+ height:605px;
+  width:992px;
+  margin-left: 600px;
+  background-color:rgba(34, 34, 34, 1) ;
+}
+
+
+.img-design{
+  border-radius:30px;
+  height:200px;
+  width:300px;
+  margin:10px;
+  
+ 
+}
+
+
+
+
+
+
+/*rrgba(34, 34, 34, 1)esponsive media query*/
 @media  screen and (max-width:576px) {
   
     
